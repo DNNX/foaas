@@ -60,7 +60,7 @@ app.get '/that/:from', (req, res) ->
 
 app.get '/everything/:from', (req, res) ->
   message = "Fuck everything."
-  subtitle = "- #{req.params. from}"
+  subtitle = "- #{req.params.from}"
   dooutput(res, message, subtitle)
 
 app.get '/everyone/:from', (req, res) ->
